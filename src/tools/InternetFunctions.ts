@@ -15,13 +15,10 @@ export class InternetFunctions {
 	}
 
 	@OpenAIFunction(
-		"Searches the internet using SerpApi to get page position, date, title, snippet, source and link of html pages",
+		"Searches the internet using SerpApi to get \
+			page position, date, title, snippet, source and link of html pages",
 		{
-			query: {
-				type: "string",
-				description: "The search query",
-				required: true,
-			},
+			query: { type: "string", description: "The search query", required: true},
 		}
 	)
 	async searchInternet(query: string): Promise<string> {
@@ -29,8 +26,6 @@ export class InternetFunctions {
 			q: query,
 			api_key: this.apiKey,
 		});
-
-     
 		const results = response["organic_results"].map((result: any) => JSON.stringify({
 			    position:result.position,
 				result:result.date,
