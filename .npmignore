@@ -1,0 +1,22 @@
+# ignore node_modules
+node_modules/
+
+# ignore .env files
+.env
+
+# ignore test files
+**/__tests__/
+**/*.test.ts
+**/*.spec.ts
+
+# ignore TypeScript source files if you're compiling to JavaScript
+src/
+
+# ignore TypeScript config
+tsconfig.json
+
+# ignore log files
+*.log
+
+# ignore any .map files
+*.map

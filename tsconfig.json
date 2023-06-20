@@ -1,0 +1,13 @@
+{
+	"compilerOptions": {
+	  "target": "es6",
+	  "module": "commonjs",
+	  "strict": true,
+	  "esModuleInterop": true,
+	  "outDir": "./dist",
+	  "experimentalDecorators": true,
+	  "emitDecoratorMetadata": true,
+	  "declaration": true
+	},
+	"include": ["src", "tests/OpenAIAgent.test.ts"]
+  }
