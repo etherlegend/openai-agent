@@ -3,15 +3,11 @@
 
 Connect NodeJS/Typescript Functions With OpenAI Function Call APIs!!
 
-Easily integrate NodeJs/Typescript functions with OpenAI GPT Function Call APIs to build super awesome agents! This package makes it easy for you to integrate OpenAI's GPT Functions into your applications by providing a structured framework for creating Agents and their related tools and functions.
+Easily integrate NodeJs/Typescript functions with OpenAI GPT Function Call APIs to build super awesome agents! This package makes it easy for you to integrate OpenAI's GPT Functions into your applications by providing a structured framework for creating Agents and their related tools and functions. More documentation on usage below.
 
-Documentation below.
-
-[Checkout the github repo](https://github.com/etherlegend/openai-agent)
-
-[Ask questions in twitter](https://twitter.com/amazedsaint)
-
-[Read about Function APIs here if you are not aware about it](https://openai.com/blog/function-calling-and-other-api-updates?ref=upstract.com) - how ever, specific knowledge of OpenAI API/structure is not required to use this package.
+- [Checkout the github repo](https://github.com/etherlegend/openai-agent)
+- [Ask questions in twitter](https://twitter.com/etherlegend)
+- [Read about Function APIs here if you are not aware about it](https://openai.com/blog/function-calling-and-other-api-updates?ref=upstract.com) - how ever, specific knowledge of OpenAI API/structure is not required to use this package.
 
 
 
