@@ -30,7 +30,7 @@ export class InternetFunctions {
 			api_key: this.apiKey,
 		});
 
-        console.log(response["organic_results"]);
+     
 		const results = response["organic_results"].map((result: any) => JSON.stringify({
 			    position:result.position,
 				result:result.date,

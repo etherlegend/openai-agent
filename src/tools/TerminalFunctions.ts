@@ -40,7 +40,7 @@ export class TerminalFunctions {
         });
     }
 
-    @OpenAIFunction("Outputs something to the console", {
+    @OpenAIFunction("Outputs a message to the console", {
         message: { type: 'string', description: 'The message to output', required: true }
     })
     async outputToConsole(message: any): Promise<string> {
@@ -58,7 +58,7 @@ export class TerminalFunctions {
         });
 
         return new Promise((resolve) => {
-            rl.question(question + "\n answer >> ", (answer) => {
+            rl.question(question + "\nyou >> ", (answer) => {
                 rl.close();
                 resolve(answer);
             });
