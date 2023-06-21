@@ -1,6 +1,6 @@
 {
   "name": "openai-agent",
-  "version": "1.2.0",
+  "version": "1.4.0",
   "author": "Anoop Madhusudanan <amazedsaint@gmail.com> (https://twitter.com/etherlegend)",
   "description": "Connect NodeJS/Typescript Functions With OpenAI Function Call APIs and build super awesome agents. This is maintained by twitter.com/etherlegend and not by OpenAI",
   "main": "dist/src/index.js",
