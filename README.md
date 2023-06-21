@@ -1,7 +1,7 @@
 
 # OpenAI Agent Framework 🤖
 
-Built in TypeScript, the openai-agent package is designed to make your life easier and your code cleaner. You can build agents that interact in a chat-like manner, perform tasks, and integrate real-world tooling - all by intuitively exposing your NodeJS functions to OpenAI GPT Functions backend, all this by abstracting most of it using easy to use function decorators. 
+Built in TypeScript, the openai-agent package is designed to make your life easier and your code cleaner. You can build agents that interact in a chat-like manner, perform tasks, and integrate real-world tooling - all by intuitively exposing your NodeJS functions to OpenAI GPT Functions backend - and this package will abstract most of it using easy to use function decorators. 
 
 With this package, you can easily create an agent to set a goal, and give a bunch of tools (functions) for the agent to solve the problem autonomously. After each step, the result is passed back to GPT via OpenAI Functions and GPT will decide the next function to invoke, including its parameters 
 
