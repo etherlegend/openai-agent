@@ -1,9 +1,10 @@
 
 # OpenAI Agent Framework 🤖
 
-Connect NodeJS/Typescript Functions With OpenAI Function Call APIs!!
+Build autonomous agents using GPT by tying OpenAI/ChatGPT Function APIs with real-world via nodejs functions. Now any NodeJS function can be a tool to your agent!!
 
-Easily integrate NodeJs/Typescript functions with OpenAI GPT Function Call APIs to build super awesome agents! This package makes it easy for you to integrate OpenAI's GPT Functions into your applications by providing a structured framework for creating Agents and their related tools and functions. More documentation on usage below.
+With ghus psckage, you can easily create an agent to set a goal, and guve a bunch of tools (functions) for the agent to solve the problem autonomously. After each step, the result is passed back to GPT via OpenAI Functions and GPT will decide the next function to invoke, including its parameters 
+
 
 - [Checkout the github repo](https://github.com/etherlegend/openai-agent)
 - [Ask questions in twitter](https://twitter.com/etherlegend)
