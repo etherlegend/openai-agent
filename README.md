@@ -3,7 +3,7 @@
 
 Build autonomous agents using GPT by tying OpenAI/ChatGPT Function APIs with real-world via nodejs functions. Now any NodeJS function can be a tool to your agent!!
 
-With ghus psckage, you can easily create an agent to set a goal, and guve a bunch of tools (functions) for the agent to solve the problem autonomously. After each step, the result is passed back to GPT via OpenAI Functions and GPT will decide the next function to invoke, including its parameters 
+With this package, you can easily create an agent to set a goal, and give a bunch of tools (functions) for the agent to solve the problem autonomously. After each step, the result is passed back to GPT via OpenAI Functions and GPT will decide the next function to invoke, including its parameters 
 
 
 - [Checkout the github repo](https://github.com/etherlegend/openai-agent)
