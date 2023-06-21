@@ -1,11 +1,11 @@
 
 # OpenAI Agent Framework 🤖
 
-Build autonomous agents using GPT by tying OpenAI/ChatGPT Function APIs with real-world via nodejs functions. Now any NodeJS function can be a tool to your agent!!
+Built in TypeScript, the openai-agent package is designed to make your life easier and your code cleaner. You can build agents that interact in a chat-like manner, perform tasks, and integrate real-world tooling - all by intuitively exposing your NodeJS functions to OpenAI GPT Functions backend, all this by abstracting most of it using easy to use function decorators. 
 
 With this package, you can easily create an agent to set a goal, and give a bunch of tools (functions) for the agent to solve the problem autonomously. After each step, the result is passed back to GPT via OpenAI Functions and GPT will decide the next function to invoke, including its parameters 
 
-
+- [Tutorial](https://dev.to/etherlegend/create-ai-agents-and-tools-using-gpt-in-nodejs-4jfe)
 - [Checkout the github repo](https://github.com/etherlegend/openai-agent)
 - [Ask questions in twitter](https://twitter.com/etherlegend)
 - [Read about Function APIs here if you are not aware about it](https://openai.com/blog/function-calling-and-other-api-updates?ref=upstract.com) - how ever, specific knowledge of OpenAI API/structure is not required to use this package.
