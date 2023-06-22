@@ -1,6 +1,6 @@
 {
   "name": "openai-agent",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "author": "Anoop Madhusudanan <amazedsaint@gmail.com> (https://twitter.com/etherlegend)",
   "description": "Connect NodeJS/Typescript Functions With OpenAI Function Call APIs and build super awesome agents. This is maintained by twitter.com/etherlegend and not by OpenAI",
   "main": "dist/src/index.js",
@@ -13,7 +13,7 @@
   "keywords": ["openai","llms","agents"],
   "license": "MIT",
   "dependencies": {
-    "axios": "^1.4.0",
+    "axios": "^1.5.0",
     "debug": "^4.3.4",
     "dotenv": "^16.3.1",
     "jsdom": "^22.1.0",
