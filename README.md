@@ -26,6 +26,13 @@ To install the OpenAI Agent package, run the following command:
 npm install openai-agent
 ```
 
+Important: As this library uses experimental reflection decorators, add this to your tsconfig.json
+
+```
+"experimentalDecorators": true,
+"emitDecoratorMetadata": true,
+"declaration": true
+```
 
 ## Setup 🛠️
 
@@ -41,13 +48,6 @@ SERPAPI_API_KEY is optional and required only if you use the InternetTools
 
 You'll need to replace `your_openai_api_key` and `your_serp_key` with your actual OpenAI API key and the SERP key
 
-Also as this library uses experimental reflection decorators, add this to your tsconfig.json
-
-```
-  "experimentalDecorators": true,
-	  "emitDecoratorMetadata": true,
-	  "declaration": true
-```
 
 ## Building an Agent 🤖
 
